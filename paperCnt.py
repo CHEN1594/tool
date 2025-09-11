@@ -51,7 +51,7 @@ def process_arxiv_id(arxiv_id):
 
     # Citation
     citation, title, semantic_url = get_citation_count(arxiv_id)
-    print(f"Title: {title}")
+    # print(f"Title: {title}")
     print(f"Citations: {citation}")
     print(f"Semantic Scholar: {semantic_url}")
 
